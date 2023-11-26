@@ -7,6 +7,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.movielist.ViewModelFactory
+import com.example.movielist.component.ButtonSearch
 import com.example.movielist.di.Injection
 import com.example.movielist.model.Movie
 import com.example.movielist.ui.common.UiState
@@ -50,9 +51,18 @@ fun Content(
     modifier: Modifier = Modifier
 ) {
     Column {
-        SearchButton(
+        ButtonSearch(
         query = query,
         onQueryChange = onQueryChange
         )
+        if (listMovie.isNotEmpty()) {
+            ListMovie(
+                listMovie = listMovie,
+                navigateToDetail = navigateToDetail,
+                onFavoriteIcon = onFavoriteIcon
+            )
+        } else {
+            empt
+        }
     }
 }
