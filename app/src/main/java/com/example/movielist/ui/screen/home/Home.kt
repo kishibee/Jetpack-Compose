@@ -6,5 +6,6 @@ import androidx.compose.ui.Modifier
 @Composable
 fun Home(
     modifier: Modifier = Modifier,
+) {
 
-)
+}
