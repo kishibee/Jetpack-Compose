@@ -6,5 +6,6 @@ data class Movie (
     val name: String,
     val rate: Double,
     val overview: String,
-    val releaseDate: String
+    val releaseDate: String,
+    val isFavorite: Boolean = false
 )

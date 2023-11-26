@@ -1,4 +1,4 @@
-package com.example.movielist.ui.screen
+package com.example.movielist.ui.screen.about
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -46,7 +46,7 @@ fun About(
         ) {
             Box(
                 modifier = Modifier
-                    .size(300.dp)
+                    .size(150.dp)
                     .background(Color.Black)
                     .clip(CircleShape)
                     .align(Alignment.CenterHorizontally)
