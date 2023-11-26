@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">AnimeList</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_profile">Profile</string>
+    <string name="empty_favorite">Not Found</string>
+    <string name="search_text">Enter the movie you want to search for</string>
+    <string name="about_me">About me</string>
+    <string name="back">Back</string>
+
+    <string name="title_home">Home</string>
+    <string name="name_author">Rafly Ade Kusuma</string>
+    <string name="email_author">raflykusuma2606@gmail.com</string>
+
+    <string name="remove_fav">Remove from Favorite</string>
+    <string name="fav">Favorite</string>
+    <string name="add_fav">Add to Favorite</string>
+    <string name="empty_data">Data not Found</string>
 </resources>

@@ -23,7 +23,7 @@ class HomeViewModel(private val repository: Repository) : ViewModel() {
     val uiState: StateFlow<UiState<List<Movie>>>
         get() = _uiState
 
-    fun updatePlayer (newState: Boolean, id: Int) =
+    fun updateMovie (newState: Boolean, id: Int) =
         viewModelScope.launch {
             repository.updateMovie(newState, id)
                 .collect {
