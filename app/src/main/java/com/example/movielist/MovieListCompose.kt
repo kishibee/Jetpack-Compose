@@ -77,7 +77,7 @@ fun MovieListCompose(
                     }
                 )
             ) {
-                    val id = it.arguments?.getInt("movieId") ?: -1
+                val id = it.arguments?.getInt("movieId") ?: -1
                 detail(
                     movieId = id,
                     backNavigation = {

@@ -75,7 +75,7 @@ fun Content(
             )
         } else {
             ListEmpty(
-                Warning = stringResource(R.string.empty_data))
+                warning = stringResource(R.string.empty_data))
         }
     }
 }

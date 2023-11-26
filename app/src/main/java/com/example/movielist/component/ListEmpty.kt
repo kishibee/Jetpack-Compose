@@ -10,14 +10,14 @@ import androidx.compose.ui.Modifier
 @Composable
 fun ListEmpty(
     modifier: Modifier = Modifier,
-    Warning: String
+    warning: String
 ) {
     Box(
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = Warning
+            text = warning
         )
     }
 }

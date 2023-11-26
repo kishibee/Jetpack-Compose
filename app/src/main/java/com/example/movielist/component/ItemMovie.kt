@@ -1,7 +1,5 @@
 package com.example.movielist.component
 
-import android.graphics.Paint.Align
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -17,7 +15,6 @@ import androidx.compose.material.icons.rounded.Favorite
 import androidx.compose.material.icons.rounded.FavoriteBorder
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Shapes
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -26,7 +23,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 
@@ -38,7 +34,7 @@ fun ItemMovie(
     rate: Double,
     isFavorite: Boolean,
     onFavoriteIcon: (newState: Boolean, id: Int) -> Unit,
-    modifier : Modifier = Modifier
+    modifier: Modifier = Modifier
 ) {
     Box(
         modifier = modifier

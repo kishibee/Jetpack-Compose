@@ -18,7 +18,6 @@ import com.example.movielist.ui.screen.home.ListMovie
 @Composable
 fun favorite(
     navigateToDetail: (Int) -> Unit,
-    modifier: Modifier = Modifier,
     viewModel: FavoriteViewModel = viewModel(
         factory = ViewModelFactory(Injection.getRepository())
     )
@@ -61,7 +60,7 @@ fun FavInfo(
             )
         } else {
             ListEmpty(
-                Warning = stringResource(id = R.string.empty_favorite)
+                warning = stringResource(id = R.string.empty_favorite)
             )
         }
     }
