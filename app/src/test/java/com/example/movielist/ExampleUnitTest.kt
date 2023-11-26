@@ -1,4 +1,4 @@
-package com.example.animelist
+package com.example.movielist
 
 import org.junit.Test
 

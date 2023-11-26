@@ -1,6 +1,6 @@
-package com.example.animelist.di
+package com.example.movielist.di
 
-import com.example.animelist.Repository
+import com.example.movielist.data.Repository
 
 object Injection {
     fun getRepository(): Repository {

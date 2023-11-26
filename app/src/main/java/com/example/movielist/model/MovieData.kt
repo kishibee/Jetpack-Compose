@@ -1,8 +1,9 @@
-package com.example.animelist.model
+package com.example.movielist.model
 
 object MovieData {
     val dummyMovie = listOf(
         Movie(
+            id = 0,
             imageUrl = "https://image.tmdb.org/t/p/original/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg",
             name = "Meg 2: The Trench",
             rate = 7.1,
@@ -10,6 +11,7 @@ object MovieData {
             releaseDate = "2023-08-02"
         ),
         Movie(
+            id = 1,
             imageUrl = "https://image.tmdb.org/t/p/original/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
             name = "Indiana Jones and the Dial of Destiny",
             rate = 6.6,
@@ -17,6 +19,7 @@ object MovieData {
             releaseDate = "2023-06-28"
         ),
         Movie(
+            id = 2,
             imageUrl = "https://image.tmdb.org/t/p/original/vB8o2p4ETnrfiWEgVxHmHWP9yRl.jpg",
             name = "Heart of Stone",
             rate = 6.9,
@@ -24,6 +27,7 @@ object MovieData {
             releaseDate = "2023-08-09"
         ),
         Movie(
+            id = 3,
             imageUrl = "https://image.tmdb.org/t/p/original/kSf9svfL2WrKeuK8W08xeR5lTn8.jpg",
             name = "Sound of Freedom",
             rate = 8.1,
@@ -31,6 +35,7 @@ object MovieData {
             releaseDate = "2023-07-03"
         ),
         Movie(
+            id = 4,
             imageUrl = "https://image.tmdb.org/t/p/original/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
             name = "Transformers: Rise of the Beasts",
             rate = 7.5,
@@ -38,6 +43,7 @@ object MovieData {
             releaseDate = "2023-06-06"
         ),
         Movie(
+            id = 5,
             imageUrl = "https://image.tmdb.org/t/p/original/yF1eOkaYvwiORauRCPWznV9xVvi.jpg",
             name = "Spider-Man: Across the Spider-Verse",
             rate = 8.5,
@@ -45,6 +51,7 @@ object MovieData {
             releaseDate = "2023-05-31"
         ),
         Movie(
+            id = 6,
             imageUrl = "https://image.tmdb.org/t/p/original/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg",
             name = "The Flash",
             rate = 6.9,
@@ -52,6 +59,7 @@ object MovieData {
             releaseDate = "2023-06-13"
         ),
         Movie(
+            id = 7,
             imageUrl = "https://image.tmdb.org/t/p/original/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
             name = "Fast X",
             rate = 7.3,
@@ -59,6 +67,7 @@ object MovieData {
             releaseDate = "2023-05-17"
         ),
         Movie(
+            id = 8,
             imageUrl = "https://image.tmdb.org/t/p/original/1dviyIqBrbnigrbodIvfMQj8mJ0.jpg",
             name = "H4Z4RD",
             rate = 5.9,
@@ -66,6 +75,7 @@ object MovieData {
             releaseDate = "2022-07-20"
         ),
         Movie(
+            id = 9,
             imageUrl = "https://image.tmdb.org/t/p/original/kGclAzPJobEy7qg7LNuFI9grNoh.jpg",
             name = "The Squad: Home Run",
             rate = 5.6,

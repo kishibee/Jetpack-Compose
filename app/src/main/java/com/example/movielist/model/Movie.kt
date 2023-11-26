@@ -1,6 +1,7 @@
-package com.example.animelist.model
+package com.example.movielist.model
 
 data class Movie (
+    val id: Int,
     val imageUrl: String,
     val name: String,
     val rate: Double,

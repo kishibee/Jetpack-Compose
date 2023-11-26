@@ -1,4 +1,4 @@
-package com.example.animelist.ui.theme
+package com.example.movielist.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

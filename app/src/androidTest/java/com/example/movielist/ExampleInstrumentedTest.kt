@@ -1,4 +1,4 @@
-package com.example.animelist
+package com.example.movielist
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

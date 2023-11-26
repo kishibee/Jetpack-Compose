@@ -1,4 +1,4 @@
-package com.example.animelist.navigation
+package com.example.movielist.ui.navigation
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

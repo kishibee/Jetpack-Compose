@@ -1,4 +1,4 @@
-package com.example.animelist.common
+package com.example.movielist.ui.common
 
 sealed class UiState<out T: Any?> {
 

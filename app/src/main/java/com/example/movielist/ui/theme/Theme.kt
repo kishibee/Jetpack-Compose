@@ -1,4 +1,4 @@
-package com.example.animelist.ui.theme
+package com.example.movielist.ui.theme
 
 import android.app.Activity
 import android.os.Build
