@@ -27,7 +27,7 @@ import com.example.animelist.R
 
 @Preview
 @Composable
-fun About(
+fun about(
     modifier: Modifier = Modifier
 ) {
     val name = "Rafly Ade Kusuma"
