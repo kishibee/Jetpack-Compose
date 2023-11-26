@@ -26,7 +26,7 @@ import com.example.movielist.model.Movie
 import com.example.movielist.ui.common.UiState
 
 @Composable
-fun Home(
+fun home(
     modifier: Modifier = Modifier,
     viewModel: HomeViewModel = viewModel(
         factory = ViewModelFactory(Injection.getRepository())),

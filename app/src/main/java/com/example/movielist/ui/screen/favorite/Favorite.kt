@@ -16,7 +16,7 @@ import com.example.movielist.ui.common.UiState
 import com.example.movielist.ui.screen.home.ListMovie
 
 @Composable
-fun Favorite(
+fun favorite(
     navigateToDetail: (Int) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: FavoriteViewModel = viewModel(
