@@ -71,7 +71,7 @@ fun Content(
             ListMovie(
                 listMovie = listMovie,
                 navigateToDetail = navigateToDetail,
-                onFavoriteIcon = onFavoriteIcon
+                onFavIcon = onFavoriteIcon
             )
         } else {
             ListEmpty(
@@ -84,7 +84,7 @@ fun Content(
 @Composable
 fun ListMovie(
     listMovie: List<Movie>,
-    onFavoriteIcon: (newState: Boolean, id: Int) -> Unit,
+    onFavIcon: (newState: Boolean, id: Int) -> Unit,
     navigateToDetail: (Int) -> Unit,
     contentPaddingTop: Dp = 0.dp
 ) {
@@ -104,7 +104,7 @@ fun ListMovie(
                 imageUrl = item.imageUrl,
                 rate = item.rate,
                 isFavorite = item.isFavorite,
-                onFavoriteIcon = onFavoriteIcon,
+                onFavoriteIcon = onFavIcon,
                 modifier = Modifier
                     .animateItemPlacement(tween(durationMillis = 200))
                     .clickable { navigateToDetail(item.id) }
