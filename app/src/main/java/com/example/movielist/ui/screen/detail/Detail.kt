@@ -187,8 +187,7 @@ fun DetailInfo(
             modifier = Modifier
                 .align(Alignment.TopStart)
                 .clip(CircleShape)
-                .background(Color.Black)
-                .padding(start = 14.dp, top = 7.dp)
+                .padding(start = 7.dp, top = 7.dp)
         ) {
             Icon(
                 imageVector = Icons.Default.ArrowBack,
@@ -203,7 +202,6 @@ fun DetailInfo(
                 .align(Alignment.TopEnd)
                 .size(44.dp)
                 .padding(end = 14.dp, top = 7.dp)
-                .background(Color.Black)
                 .clip(CircleShape)
         ) {
             Icon(
@@ -213,7 +211,7 @@ fun DetailInfo(
                 contentDescription =
                 if (!isFavorite) stringResource(R.string.add_fav)
                 else stringResource(R.string.remove_fav),
-                tint = if (!isFavorite) Color.Black
+                tint = if (!isFavorite) Color.White
                 else Color.Red
             )
         }
